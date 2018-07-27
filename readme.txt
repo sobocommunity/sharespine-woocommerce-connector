@@ -1,5 +1,5 @@
 === Sharespine Woocommerce Connector ===
-Tags: sharespine, plugboard, e-commerce, integration, cdon, fyndiq, tradera, afound, mirakl, visma, fortnox, specter, hogia, marketplace, woocommerce
+Tags: sharespine, plugboard, e-commerce, integration, cdon, fyndiq, tradera, afound, mirakl, visma, fortnox, specter, hogia, marketplace, woocommerce, mamut, mamut enterprise, hogia retail, hogia smart, visma eekonomi, visma net, visma.net, visma admin, visma administration, visma accounting, visma eaccounting
 Contributors: sharespine
 Requires PHP: 5.2.4
 Requires at least: 4.7
