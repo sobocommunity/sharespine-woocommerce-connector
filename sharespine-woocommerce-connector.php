@@ -2,7 +2,7 @@
 /**
 * Plugin Name: Sharespine Woocommerce Connector
 * Description: Easily connect marketplaces and/or ERP systems to your webshop using Sharespine. Extends WooCommerce REST API with additional functionality used by Plugboard.
-* Version: 4.0.24
+* Version: 4.0.25
 * Author: Sharespine AB
 * Author URI: https://www.sharespine.com
 * Developer: Sharespine AB
