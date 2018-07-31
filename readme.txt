@@ -14,7 +14,7 @@ functionality used by Plugboard.
 
 
 == Description ==
-= SARESPINE PLUGBOARD - MARKETPLACES =
+= SHARESPINE PLUGBOARD - MARKETPLACES =
 With Sharespine Plugboard you can sell your WooCommerce products on several Nordic and European marketplaces. The Plugboard Integration platform will connect your webshop to the selected marketplace(s) and make sure you always have your WooCommerce and Marketplace data synchronized.
 
 Data we push to the Marketplaces:
@@ -38,8 +38,20 @@ Marketplaces we support at the moment:
 - VidaXL
 More marketplaces will be added soon.
 
-= SHARESPINE CLOUD AND CLIENT   ERP SYSTEMS =
-With the Sharespine cloud and client, you can also have your site integrated with ERP:s like Fortnox, Visma, Specter and Hogia. More details about ERP integrations can be found on our website.
+= SHARESPINE CLOUD AND CLIENT ERP SYSTEMS =
+With the Sharespine cloud and client, you can also have your site
+integrated with ERP systems. More details about ERP integrations can
+be found on our website.
+
+ERP Systems we support at the moment:
+
+ - Fortnox
+ - Specter
+ - Hogia Smart
+ - Hogia Retail
+ - Visma Administration
+ - Visma eAccounting / eEkonomi
+ - Visma Net
 
 
 == Installation ==
