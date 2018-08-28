@@ -3,8 +3,8 @@ Tags: sharespine, plugboard, e-commerce, integration, cdon, fyndiq, tradera, afo
 Contributors: sharespine
 Requires PHP: 5.2.4
 Requires at least: 4.7
-Tested up to: 4.9.7
-Stable tag: 4.0.25
+Tested up to: 4.9.8
+Stable tag: !!set by build process!!
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -18,24 +18,24 @@ functionality used by Plugboard.
 With Sharespine Plugboard you can sell your WooCommerce products on several Nordic and European marketplaces. The Plugboard Integration platform will connect your webshop to the selected marketplace(s) and make sure you always have your WooCommerce and Marketplace data synchronized.
 
 Data we push to the Marketplaces:
-- Product details (descriptions, pictures, SKU)
-- Pricing details
-- Stock value
-- Variants & attributes
+ - Product details (descriptions, pictures, SKU)
+ - Pricing details
+ - Stock value
+ - Variants & attributes
 
 Data we pull from the Marketplaces:
-- Orders
-- Customer details
+ - Orders
+ - Customer details
 
 With Plugboard you can also convert and/or differentiate your data. Lets say you want each marketplace to contain different description or images, or lets say some marketplaces do not allow non-numerical SKU:s. With plugboard you can set rules as well as change specific data to specific marketplace(s).
 
 Marketplaces we support at the moment:
-- CDON
-- FYNDIQ
-- Tradera
-- Afound
-- CoolShop
-- VidaXL
+ - CDON
+ - FYNDIQ
+ - Tradera
+ - Afound
+ - CoolShop
+ - VidaXL
 More marketplaces will be added soon.
 
 = SHARESPINE CLOUD AND CLIENT ERP SYSTEMS =
@@ -44,7 +44,6 @@ integrated with ERP systems. More details about ERP integrations can
 be found on our website.
 
 ERP Systems we support at the moment:
-
  - Fortnox
  - Specter
  - Hogia Smart
@@ -68,6 +67,10 @@ that version before installing this.
 
 
 == Changelog ==
+= 4.1 =
+Plugin admin page now contains information and links to the connected
+integration system and user account.
+
 = 4.0 =
 Published in Wordpress Plugin Directory.
 Replaces the older "Sharespine Woocommerce API extensions" plugin.
