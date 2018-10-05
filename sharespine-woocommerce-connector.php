@@ -1,8 +1,8 @@
 <?php
 /**
 * Plugin Name: Sharespine Woocommerce Connector
-* Description: Easily connect marketplaces and/or ERP systems to your webshop using Sharespine. Extends WooCommerce REST API with additional functionality used by Plugboard.
-* Version: 4.1.35
+* Description: Premium Synchronizing of customers, products and orders from WooCommerce to Fortnox, Specter, Visma, Mamut, Hogia, CDON, Fyndiq, Tradera, Afound .
+* Version: 4.1.36
 * Author: Sharespine AB
 * Author URI: https://www.sharespine.com/woocommerce/
 *

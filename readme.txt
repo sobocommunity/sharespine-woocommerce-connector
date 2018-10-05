@@ -8,10 +8,7 @@ Stable tag: !!set by build process!!
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Easily connect marketplaces and/or ERP systems to your webshop using
-Sharespine. Extends WooCommerce REST API with additional
-functionality used by Plugboard.
-
+Premium Synchronizing of customers, products and orders from WooCommerce to Fortnox, Specter, Visma, Mamut, Hogia, CDON, Fyndiq, Tradera, Afound ...
 
 == Description ==
 = SHARESPINE PLUGBOARD - MARKETPLACES =
