@@ -64,6 +64,9 @@ that version before installing this.
 
 
 == Changelog ==
+= 4.2 =
+Fixes typing issue when connection data was missing.
+
 = 4.1 =
 Plugin admin page now contains information and links to the connected
 integration system and user account.
