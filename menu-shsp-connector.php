@@ -20,7 +20,7 @@ function shsp_show_admin_menu_page()
 {
     $assetdir = plugin_dir_url(realpath(dirname(__FILE__))) . "assets";
 
-    $shsp_integrator_info = get_option("shsp_integrator_info", (object)array());
+    $shsp_integrator_info = get_option("shsp_integrator_info", array());
 
     $pbloginurl = "https://my." . $shsp_integrator_info["domain"]
         . "/?pb_login_tenant=".$shsp_integrator_info["tenantCodeName"];
