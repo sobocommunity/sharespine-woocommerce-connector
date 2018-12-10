@@ -8,10 +8,16 @@ add_action("rest_api_init", "shsp_product_extensions");
 
 function shsp_product_extensions()
 {
-    register_rest_field("product", "shsp-ext", array(
-        "get_callback"    => "get_shsp_product_extensions",
-        "schema"          => null
-      )
+    register_rest_field(
+        "product",
+        "shsp-ext",
+        array(
+            "get_callback"    => "get_shsp_product_extensions",
+            "schema"          => array(
+                "main" => array(),
+                "variations" => array()
+            )
+        )
     );
 }
 
@@ -20,7 +26,8 @@ function get_shsp_product_extensions($object)
     $varis = array();
     if ($object["variations"]) {
         foreach ($object["variations"] as $v) {
-            $id = $v["id"];
+            if (gettype($v) === "integer") $id = $v;
+            else $id = $v["id"];
             $varis[$id] = shsp_mk_product_ext($id);
         }
     }
