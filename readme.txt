@@ -3,7 +3,7 @@ Tags: sharespine, plugboard, e-commerce, integration, cdon, fyndiq, tradera, afo
 Contributors: sharespine
 Requires PHP: 5.2.4
 Requires at least: 4.7
-Tested up to: 5.0
+Tested up to: 5.2.2
 Stable tag: !!set by build process!!
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
