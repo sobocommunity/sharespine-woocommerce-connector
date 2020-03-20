@@ -2,12 +2,12 @@
 /**
 * Plugin Name: Sharespine Woocommerce Connector
 * Description: Premium Synchronizing of customers, products and orders from WooCommerce to Fortnox, Specter, Visma, Mamut, Hogia, CDON, Fyndiq, Tradera, Afound .
-* Version: 4.3.40
+* Version: 4.3.41
 * Author: Sharespine AB
 * Author URI: https://www.sharespine.com/woocommerce/
 *
 * WC requires at least: 3.0
-* WC tested up to: 3.8.1
+* WC tested up to: 4.0
 *
 * Copyright: © 2017-2020 Sharespine AB
 * License: GPL3
