@@ -10,10 +10,18 @@ function shsp_lastModifiedAtOrAfter_filter($request)
     $lm = $_GET["lastModifiedAtOrAfter"];
     if ($lm) {
         $request['date_query'] = array(
+            'relation' => 'OR',
             array(
                 "after" => $lm,
                 "column" => "post_modified_gmt",
-                "compare" => ">="
+                "compare" => ">=",
+                "inclusive" => true
+            ),
+            array(
+                "after" => $lm,
+                "column" => "post_modified",
+                "compare" => ">=",
+                "inclusive" => true
             )
         );
     }
