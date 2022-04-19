@@ -1,5 +1,5 @@
 === Sharespine Woocommerce Connector ===
-Tags: sharespine, plugboard, e-commerce, integration, cdon, fyndiq, tradera, afound, mirakl, visma, fortnox, specter, hogia, marketplace, woocommerce, mamut, mamut enterprise, hogia retail, hogia smart, visma eekonomi, visma net, visma.net, visma admin, visma administration, visma accounting, visma eaccounting
+Tags: sharespine, plugboard, e-commerce, integration, cdon, fyndiq, tradera, afound, mirakl, visma, fortnox, specter, marketplace, woocommerce, visma eekonomi, visma net, visma.net, visma admin, visma administration, visma accounting, visma eaccounting, business central, klarna, stripe, paypal, nets, payson, svea checkout
 Contributors: sharespine
 Requires PHP: 5.2.4
 Requires at least: 4.7
@@ -11,43 +11,75 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Premium Synchronizing of customers, products and orders from WooCommerce to Fortnox, Specter, Visma, Mamut, Hogia, CDON, Fyndiq, Tradera, Afound ...
 
 == Description ==
-= SHARESPINE PLUGBOARD - MARKETPLACES =
-With Sharespine Plugboard you can sell your WooCommerce products on several Nordic and European marketplaces. The Plugboard Integration platform will connect your webshop to the selected marketplace(s) and make sure you always have your WooCommerce and Marketplace data synchronized.
+
+= ERP SYSTEMS =
+Reduce your workload by automating your bookkeeping efforts. Tie your accounting system, e-commerce, payment supplier, marketplaces and logistics system together, so that every event is recorded swiftly and accurately.
+
+ERP Systems supported at the moment:
+– Business Central
+– Fortnox
+– HiCore Systems
+– iFenix
+– Kodmyran
+– Mamut
+– Specter
+– Visma Administration
+– Visma eAccounting / eEkonomi
+– Visma e-conomic
+– Visma.net
+
+
+= PAYMENT SERVICE PROVIDERS (PSP) =
+With our automatic reconciliation service, payments from your payment provider are matched against the invoice in your accounting system and then booked.
+This means that you do not have to handle the flow of payments manually.
+PSP's supported at the moment:
+– PayPal
+– Klarna
+– Stripe
+– Nets easy
+– Svea Checkout
+– Payson
+– CDON Settlement
+
+= MARKETPLACES =
+With Sharespine Plugboard you can sell your WooCommerce products on several Nordic and European marketplaces. The Plugboard Integration platform will connect your store to the selected marketplace(s) and make sure you always have your WooCommerce and Marketplace data synchronized.
 
 Data we push to the Marketplaces:
- - Product details (descriptions, pictures, SKU)
- - Pricing details
- - Stock value
- - Variants & attributes
+– Product details (descriptions, pictures, SKU)
+– Pricing details
+– Stock value
+– Variants & attributes
 
 Data we pull from the Marketplaces:
- - Orders
- - Customer details
+– Orders
+– Customer details
+– Settlements (if availiable)
 
-With Plugboard you can also convert and/or differentiate your data. Lets say you want each marketplace to contain different description or images, or lets say some marketplaces do not allow non-numerical SKU:s. With plugboard you can set rules as well as change specific data to specific marketplace(s).
 
-Marketplaces we support at the moment:
- - CDON
- - FYNDIQ
- - Tradera
- - Afound
- - CoolShop
- - VidaXL
-More marketplaces will be added soon.
+With Plugboard you can also convert and/or differentiate your data. Lets say you want each marketplace to contain different description or images, or some marketplaces do not allow non-numerical SKU:s. With plugboard you can set rules as well as change specific data to specific marketplace(s).
 
-= SHARESPINE CLOUD AND CLIENT ERP SYSTEMS =
-With the Sharespine cloud and client, you can also have your site
-integrated with ERP systems. More details about ERP integrations can
-be found on our website.
+Marketplaces supported at the moment:
+– AFOUND
+– CDON
+– ELGIGANTEN/ELKJÖP
+– FYNDIQ
+– Tradera
+– ÅHLÈNS
 
-ERP Systems we support at the moment:
- - Fortnox
- - Specter
- - Hogia Smart
- - Hogia Retail
- - Visma Administration
- - Visma eAccounting / eEkonomi
- - Visma Net
+= LOGISTICS =
+Automate your work flows in Warehouse Management System (WMS) and Transport Management System (TSM) – regardless of sales channel. You can choose among multiple integrations to improve your logistics and create a better overview of deliveries.
+
+Logistics systems supported at the moment:
+– nShift
+– Ongoing
+– Shiplink
+- PostNord
+
+= POINT OF SALE (POS) =
+Do you combine a physical store with online sales? Sync everything including product data, price lists and stock via our platform, between the web store, marketplaces, business systems and your physical cashier point – seamlessly and regardless of channels.
+POS-systems supported at the moment:
+– Sitoo
+– mystore.no
 
 
 == Installation ==
