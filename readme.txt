@@ -96,6 +96,10 @@ that version before installing this.
 
 
 == Changelog ==
+= 4.5 =
+Fix issue with WPML interactions as described in
+https://wpml.org/forums/topic/performance-issues/
+
 = 4.4 =
 Work around some issues with misconfigured time zones.
 
