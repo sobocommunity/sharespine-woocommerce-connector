@@ -97,8 +97,10 @@ that version before installing this.
 
 == Changelog ==
 = 4.5 =
-Fix issue with WPML interactions as described in
-https://wpml.org/forums/topic/performance-issues/
+Fixed issue causing a loop in product timestamp update when metadata changes.
+Don't propagate inconsequential errors in timestamp update.
+Don't fire after-hooks when updating timestamp on metadata updates.
+Ignore some troublesome wpml metadata fields.
 
 = 4.4 =
 Work around some issues with misconfigured time zones.
