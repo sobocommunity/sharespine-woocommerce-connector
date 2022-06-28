@@ -7,8 +7,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 function shsp_lastModifiedAtOrAfter_filter($request)
 {
     /** Add lastmod to query */
-    $lm = $_GET["lastModifiedAtOrAfter"];
-    if ($lm) {
+    if (isset($_GET["lastModifiedAtOrAfter"])) {
+        $lm = $_GET["lastModifiedAtOrAfter"];
+
         $request['date_query'] = array(
             'relation' => 'OR',
             array(
