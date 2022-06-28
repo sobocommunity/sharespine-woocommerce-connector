@@ -3,7 +3,7 @@ Tags: sharespine, plugboard, e-commerce, integration, cdon, fyndiq, tradera, afo
 Contributors: sharespine
 Requires PHP: 5.2.4
 Requires at least: 4.7
-Tested up to: 5.9
+Tested up to: 6.0
 Stable tag: !!set by build process!!
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -96,6 +96,10 @@ that version before installing this.
 
 
 == Changelog ==
+= 4.6 =
+Fix warning on missing properties on some API calls.
+Tested with newer versions of WP and Woocommerce.
+
 = 4.5 =
 Fixed issue causing a loop in product timestamp update when metadata changes.
 Don't propagate inconsequential errors in timestamp update.
